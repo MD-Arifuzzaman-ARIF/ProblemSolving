@@ -1,2 +1,2 @@
 # ProblemSolving
-Here, I have compiled all the solutions to the problems I solved on Codeforces.
+Here, I have compiled all the solutions to the problems I solved on Codeforces, Leetcode, and HackerRank
