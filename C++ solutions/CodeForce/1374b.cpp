@@ -13,19 +13,16 @@ int main() {
 
         int cnt2 = 0, cnt3 = 0;
 
-        // Count powers of 2
         while (n % 2 == 0) {
             cnt2++;
             n /= 2;
         }
 
-        // Count powers of 3
         while (n % 3 == 0) {
             cnt3++;
             n /= 3;
         }
 
-        // If leftover > 1 -> has other prime factors
         if (n != 1 || cnt2 > cnt3) {
             cout << -1 << "\n";
         } else {
